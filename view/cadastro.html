@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>CADMO SYS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form method="POST" action="/cadmoSys/controller/cadastroController.php"> 
+        <div id="formCadastro">
+            <h1>CADASTRO</h1>
+            <label for="inputNome"><b>Nome</b></label>
+            <input type="text" name="nome" id="inputNome" placeholder="Nome" size="30px">
+            <label for="inputCpf"><b>CPF</b></label>
+            <input type="text" name="cpf" id="inputCpf" placeholder="CPF" size="30px">
+            <label for="inputEmail"><b>E-mail / Usuário</b></label>
+            <input type="email" name="email" id="inputEmail" placeholder="E-mail" size="30px">
+            <label for="inputSenha"><b>Senha</b></label>
+            <input type="password" name="senha" id="inputSenha" placeholder="Senha" size="30px">
+            <label for="inputEndereco"><b>Endereço</b></label>
+            <input type="text" name="endereco" id="inputEndereco" placeholder="Endereço" size="30px">
+            <label for="inputNumero"><b>Numero</b></label>
+            <input type="text" name="numero" id="inputNumero" placeholder="Numero" size="30px">
+            <label for="inputTelefone"><b>Telefone</b></label>
+            <input type="text" name="telefone" id="inputTelefone" placeholder="Telefone" size="30px">
+            <input type="submit" style="font-weight: bold;" value= "Cadastrar">
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,94 @@
+body{
+    background-image: url(img/Hotel.jpg); 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+div#form{
+    text-align: center;
+    height: 330px;
+    width: 270px;
+    margin: 160px auto 0 auto;
+    font-family: Arial;
+    color: yellow;
+}
+
+div#formCadastro{
+    text-align: center;
+    height: 330px;
+    width: 270px;
+    margin: 80px auto 0 auto;
+    font-family: Arial;
+    color: yellow;
+}
+
+label{
+    display: block;
+    text-align: left;
+    margin: 0px auto 0px 8px;
+    font-weight: bold;
+}
+
+input{
+    display: block;
+    height: 28px;
+    width: 250px;
+    border-radius: 30px;
+    border: 1px solid black;
+    outline: none;
+    padding-left: 10px;
+    margin: 0px auto 8px auto;
+}
+
+input[type=submit]{
+    height: 28px;
+    width: 80px;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-family: Arial;
+    font-weight: bold;
+    margin: 10px auto 10px auto; 
+    
+}
+
+input[class="menu"]{
+    
+    display: inline;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 20px 10px 20px;
+    
+}
+
+input[id="menuSair"]{
+    
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 28px;
+    width: 70px;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    color: yellow;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+select{
+    display: block;
+    height: 32px;
+    width: 262px;
+    border-radius: 30px;
+    border: 1px solid black;
+    outline: none;
+    padding-left: 10px;
+    margin: 0px auto 8px auto;
+}
+
+h1{
+    font-family: Arial;
+}

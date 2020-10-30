@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <title>CADMO SYS</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body><center>
+    <br>
+    <h1 style="color: yellow; display: inline; margin: 10px auto auto 470px;">Reserva de Apartamento!!!</h1>
+    <input style="margin: 10px 10px 10px 370px;" id="menuSair" class="menu" type="button" name="sair" id="sair" value="Sair" onclick="location.href='login.html'">
+
+    <form method="POST" action="/cadmoSys/controller/reservarController.php"> 
+        <div id="formCadastro">
+            <label for="selectApartamento"><b>Apartamento</b></label>
+            <select name="apartamento" id="selectApartamento"> 
+                <option value="0">Selecione</option>
+                <option value="1">Solteiro</option>
+                <option value="2">Casal</option>
+                <option value="3">Familia</option> 
+            </select>
+            <label for="selectQtdHospedes"><b>Qtd de Hospedes</b></label>
+            <select name="apartamento" id="selectQtdHospedes"> 
+                <option value="0">Selecione</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option> 
+            </select>
+            <label for="inputDataReserva"><b>Data da reserva</b></label>
+            <input type="date" name="dataReserva" id="inputDataReserva" placeholder="Data da Reserva" size="30px" style="width: 250px; height: 32px;">
+            <label for="inputDataCheckin"><b>Data Checkin</b></label>
+            <input type="date" name="dataCheckin" id="inputDataCheckin" placeholder="Data Checkin" size="30px" style="width: 250px; height: 32px;">
+            <label for="inputDataCheckout"><b>Data Checkout</b></label>
+            <input type="date" name="dataCheckout" id="inputDataCheckout" placeholder="Data Checkout" size="30px" style="width: 250px; height: 32px;">
+            <label for="inputValorTotalReserva"><b>Valor Total da Reserva</b></label>
+            <input type="float" name="valorTotalReserva" id="inputValorTotalReserva" placeholder="Valor Total da Reserva" size="30px">
+            <label for="inputValorPago"><b>Valor Pago</b></label>
+            <input type="float" name="valorPago" id="inputValorPago" placeholder="Valor Pago" size="30px">
+            <input type="submit" style="font-weight: bold;" value= "Cadastrar">
+        </div>
+    </form>
+
+</body></center>
+</html>
